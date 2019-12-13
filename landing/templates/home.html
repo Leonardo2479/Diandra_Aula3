@@ -1,0 +1,11 @@
+{% extends "base.html "%}
+{% load static %}
+{% block content %}
+<nav id="navbar">
+    <a href="/">Home</a>
+    <a href="/alunos/cadastro">Cadastro</a>
+    <a href="/alunos/lista">Lista</a>
+    <a href="/alunos/login">Login</a>
+</nav>
+<h1><img class="imagem" src="{% static 'img/aleatorio.jpg' %}" alt=""></h1>
+{% endblock %}

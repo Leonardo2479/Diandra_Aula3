@@ -44,10 +44,35 @@ label{
 input{
     height: 40px;
     margin: 5px;
-    width: 35%;
+    width: 250px;
 }
 
 .imagem{
     width: 22%;
     margin: 20px 20px 20px 0px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+    height: 80px;
+    width: 100%;
+}
+
+#navbar a:hover{
+    color: red;
+}
+
+/* #botaozinho {
+    width: 200px;
+    background-color: rgba(50, 43, 148, 0.36);
+    font-weight: bold;
+} */
+
+.batata {
+    height: 40px;
+    margin: 5px;
+    width: 250px;
 }
